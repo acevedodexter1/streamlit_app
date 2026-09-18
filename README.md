@@ -1,3 +1,15 @@
+
+---
+title: Medicine System
+emoji: 💊
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.38.0
+app_file: app.py
+pinned: false
+---
+
 # Medicine System App
 
 An AI-powered medicine reminder and interaction checker built with Streamlit.

@@ -20,7 +20,9 @@ HF_TOKEN = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_API_KEY")
 # which provider hosts which model, so we let the user switch models from the
 # sidebar instead of hard-coding a single one that might stop working later.
 MODEL_OPTIONS = {
-    "Qwen2.5-7B-Instruct (recommended, ungated)": "Qwen/Qwen2.5-7B-Instruct",
+    "DeepSeek-V4.1-Flash (recommended, via Novita)": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "GLM-5.3-Flash (via Novita)": "zai-org/GLM-5.3-Flash",
+    "Qwen2.5-7B-Instruct (ungated, provider availability varies)": "Qwen/Qwen2.5-7B-Instruct",
     "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3",
     "Llama-3.2-3B-Instruct (Meta, license must be accepted on HF)": "meta-llama/Llama-3.2-3B-Instruct",
     "Zephyr-7B-beta (original/legacy, may be unavailable)": "HuggingFaceH4/zephyr-7b-beta",
